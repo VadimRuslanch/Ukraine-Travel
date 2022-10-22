@@ -1,0 +1,13 @@
+.intro{
+    padding-left: 48px;
+    padding-right: 48px;
+    margin: 92px auto;
+    max-width: 984px;
+}
+
+@media (min-width:320px) and (max-width:1024px){
+    .intro{
+        padding-left: calc( (100vw - 320px)/(1024 - 320) * (48 - 16) + 16px);
+        padding-right: calc( (100vw - 320px)/(1024 - 320) * (48 - 16) + 16px);
+    }
+}
