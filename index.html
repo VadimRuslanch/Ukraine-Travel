@@ -1,132 +1,148 @@
 <!DOCTYPE html>
 <html lang="ru, en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Путешествия по России</title>
-    <link rel="stylesheet" href="./pages/index.css">
-    <script defer src="./scripts/lang.js"></script>
-  </head>
-  <body class="page">
-      <header class="header">
-        <img class="header__logo" src="./images/header-logo.svg" alt="Логотоп Россия">
-          <form class="header__link">
-            <button class="header__lang-link" id="ru" type="button">Ru</button>
-            <button class="header__lang-link" id="en" type="button">En</button>
-          </form>
-      </header>
-      <main>
-        <section class="lead">
-          <h1 class="lead__title" id="lead-title">Путешествия по России</h1>
-          <p class="lead__subtitle" id="lead-subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <img class="lead__image" id="lead-image" src="./images/lead-polka.jpg" alt="Купе вагона">
-          <p class="lead__capton" id="lead-capton">ВАША ПОЛКА — ВЕРХНЯЯ</p>
-        </section>
-        <section class="intro">
-            <h2 class="intro__title" id="intro-title">Чего мы там не видели?</h2>
-            <p class="intro__subtitle" id="intro-subtitle">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-            <ul class="intro__list">
-              <li id="intro-list-1">Часовых поясов 11</li>
-              <li id="intro-list-2">Объектов природного наследия ЮНЕСКО 12</li>
-              <li id="intro-list-3">Объектов культурного наследия ЮНЕСКО 16</li>
-              <li id="intro-list-4">Природных заповедников 105</li>
-              <li id="intro-list-5">Аэропортов 241</li>
-            </ul>
-        </section>
-        <section class="photo-grid">
-          <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Природа Росии">
-          <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Природа Росии">
-        </section>
-        <section class="places">
-          <article class="place">
-              <h2 class="place__title" id="place-title-kosa">Куршская коса</h2>
-              <ul class="place__website">
-                <li class="place__url-heading">URL</li>
-                <li ><a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a></li>
-              </ul>
-              <img class="place__image" src="./images/place-kosa.jpg" alt="Природа России">
-              <ul class="place__text">
-              <li><p class="place__paragraph" id="place-paragraph-one-kosa">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p></li>
-              <li><p class="place__paragraph" id="place-paragraph-two-kosa">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p></li>
-            </ul>
-          </article>
-          <article class="place">
-            <h2 class="place__title" id="place-title-National-Geographic">Кольский</h2>
-              <ul class="place__website">
-                <li class="place__url-heading">URL</li>
-                <li class="place__link"><a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a></li>
-              </ul>
-              <img class="place__image" src="./images/place-kolsky.jpg" alt="Природа России">
-              <ul class="place__text">
-              <li><p class="place__paragraph" id="place-paragraph-one-National-Geographic">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p></li>
-              <li><p class="place__paragraph" id="place-paragraph-two-National-Geographic">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p></li>
-            </ul>
-          </article>
-          <article class="place">
-              <h2 class="place__title" id="place-title-Altai">Алтай</h2>
-              <ul class="place__website">
-                <li class="place__url-heading">URL</li>
-                <li class="place__link"><a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a></li>
-              </ul>
-              <img class="place__image" src="./images/place-altai.jpg" alt="Природа России">
-              <ul class="place__text">
-                <li><p class="place__paragraph" id="place-paragraph-one-Altai">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p></li>
-                <li><p class="place__paragraph" id="place-paragraph-two-Altai">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p></li>
-              </ul>
-          </article>
-          <article class="place">
-              <h2 class="place__title" id="place-title-baikal">Зимний Байкал</h2>
-              <ul class="place__website">
-                <li class="place__url-heading">URL</li>
-                <li class="place__link"><a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a></li>
-              </ul>
-              <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Природа России">
-              <ul class="place__text">
-                <li><p class="place__paragraph" id="place-paragraph-one-baikal">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p></li>
-                <li><p class="place__paragraph" id="place-paragraph-two-baikal">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p></li>
-              </ul>
-          </article>
-          <article class="place">
-              <h2 class="place__title" id="place-title-Karelia">Карелия</h2>
-              <ul class="place__website">
-                <li class="place__url-heading">URL</li>
-                <li class="place__link"><a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a></li>
-              </ul>
-              <img class="place__image" src="./images/place-karelia.jpg" alt="Природа России">
-              <p class="place__paragraph place__text" id="place-paragraph-Karelia">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-          </article>
-        </section>
-        <section>
-          <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-            <div class="cover__text">
-              <h3 class="cover__title" id="cover-title">До Байкала «на&nbsp;собаках»</h3>
-              <p class="cover__subtitle" id="cover-subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;—&nbsp;путешествие от&nbsp;столицы&nbsp;до&nbsp;Байкала&nbsp;на электричках.</p>
-            </div>
-            <div class="cover__background"></div>
-            <div class="cover__overlay"></div>
-        </a>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta content='true' name='HandheldFriendly'>
+  <meta content='width' name='MobileOptimized'>
+  <title>Подорож по Україні</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <img class="header__logo" src="./images/header-logo.svg" alt="logo Ukraine">
+    <form class="header__link">
+      <button class="header__lang-link" id="ru" type="button">Ua</button>
+      <button class="header__lang-link" id="en" type="button">En</button>
+    </form>
+  </header>
+
+  <main>
+
+    <section class="lead">
+      <h1 class="lead__title" id="lead-title">Подорож по Україні</h1>
+      <p class="lead__subtitle" id="lead-subtitle">Природа ближче ніж ти вважаєш</p>
+      <img class="lead__image" id="lead-image" src="./images/lead-polka.png" alt="#">
+    </section>
+
+    <section class="intro">
+      <h2 class="intro__title" id="intro-title">Що таке Українська природа?</h2>
+      <p class="intro__subtitle" id="intro-subtitle">8633 території та об’єкти природно-заповідного фонду загальною
+        площею 4,1 млн. га, що становило 6,8 % площі країни, а також морський заказник "Філофорне поле Зернова " площею
+        402,5 тис. га, а у складі природно-заповідного фонду було 5 біосферних заповідників, 19 природних заповідників,
+        53 національних природних парки, 85 регіональних ландшафтних парків, 3398 заказників, 3580 пам‘яток природи, 802
+        заповідних урочища, 28 ботсадів, 13 зоопарків, 62 дендропарки та 588 парків-пам‘яток садово-паркового мистецтва.
+      </p>
+    </section>
+
+    <section class="photo-grid" id="elementsPhoto">
+    </section>
+
+    <section class="elementsCard"></section>
+
+    <template id="templatePhoto">
+        <img class="photo-grid__item" src="" alt="Природа України">
+    </template>
+
+    <template id="templateCard">
+      <section class="places">
+        <article class="place">
+          <h2 class="place__title"></h2>
+          <ul class="place__website">
+            <li class="place__url-heading">URL</li>
+            <li><a class="place__link" href="" target="_blank"></a></li>
+          </ul>
+          <img class="place__image" src="./images/Sinevir.jpg" alt="Nature of Ukraine">
+          <ul class="place__text">
+            <li>
+              <p class="place__paragraph">Озеро Синевир – найбільше в Україні гірське озеро. Хоча це, безумовно,
+                родзинка
+                парку, але відвідати його варто не лише заради цієї водойми. Тут є і чарівні гори, і кришталево чисті
+                водоспади, річки та озера, заповідні болота і праліси, що належать до Списку всесвітньої спадщини
+                ЮНЕСКО.
+              </p>
+            </li>
+            <li>
+              <p class="place__paragraph">Тут відкриті для відвідувачів унікальні для України реабілітаційні центри для
+                бурих ведмедів та хижих птахів. У дикій природі, крім тих же ведмедів, можна зустріти вовка, рись,
+                оленів
+                та козуль. У смерекових лісах гніздяться глухарі, рябчики, на торф’яні болота залітають білі та чорні
+                лелеки, а високо в небесах ширяють беркути.</p>
+            </li>
+            <li>
+              <p class="place__paragraph">А ще приїжджайте до “Синевиру” знайомитись із душею Карпат – місцевою
+                культурою.
+                Побачите знаряддя праці сплавників деревини у єдиному в Європі та другому у світі Музеї лісу і сплаву,
+                ознайомитеся із побутом та традиціями трьохсотлітньої давнини в музеї “Старе село” та оглянете оборонні
+                бункери Лінії Арпада, яку використовувала угорська армія в Другій світовій війні.</p>
+            </li>
+          </ul>
+        </article>
       </section>
-      </main>
-      <footer class="footer">
-        <nav class="footer__links">
-          <a class="footer__link" href="https://yandex.ru/maps" target="_blank" id="footer-link-maps">Карты</a>
-          <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank" id="footer-link-weather">Погода</a>
-          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank" id="footer-link-schedule">Расписание</a>
-          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank" id="footer-link-calendar">Календарь</a>
-          <a class="footer__link" href="https://travel.yandex.ru" target="_blank" id="footer-link-trip">Путешествия</a>
-        </nav>
-        <p class="footer__copyright">© 2022. Лебедев Вадим</p>
-      </footer>
-      <script src="./scripts/script.js"></script>
-  </body>
+    </template>
+
+    <!-- <template id="templatetCard">
+    <section class="places">
+      <article class="place">
+        <h2 class="place__title" id="place-title-kosa">Національний Парк "Синевир"</h2>
+        <ul class="place__website">
+          <li class="place__url-heading">URL</li>
+          <li><a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a></li>
+        </ul>
+        <img class="place__image" src="./images/Sinevir.jpg" alt="nature of Ukraine">
+        <ul class="place__text">
+          <li>
+            <p class="place__paragraph">Озеро Синевир – найбільше в Україні гірське озеро. Хоча це, безумовно, родзинка
+              парку, але відвідати його варто не лише заради цієї водойми. Тут є і чарівні гори, і кришталево чисті
+              водоспади, річки та озера, заповідні болота і праліси, що належать до Списку всесвітньої спадщини ЮНЕСКО.
+            </p>
+          </li>
+          <li>
+            <p class="place__paragraph">Тут відкриті для відвідувачів унікальні для України реабілітаційні центри для
+              бурих ведмедів та хижих птахів. У дикій природі, крім тих же ведмедів, можна зустріти вовка, рись, оленів
+              та козуль. У смерекових лісах гніздяться глухарі, рябчики, на торф’яні болота залітають білі та чорні
+              лелеки, а високо в небесах ширяють беркути.</p>
+          </li>
+          <li>
+            <p class="place__paragraph">А ще приїжджайте до “Синевиру” знайомитись із душею Карпат – місцевою культурою.
+              Побачите знаряддя праці сплавників деревини у єдиному в Європі та другому у світі Музеї лісу і сплаву,
+              ознайомитеся із побутом та традиціями трьохсотлітньої давнини в музеї “Старе село” та оглянете оборонні
+              бункери Лінії Арпада, яку використовувала угорська армія в Другій світовій війні.</p>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </template> -->
+
+    <section>
+      <a class="cover" href="" target="_blank">
+        <div class="cover__text">
+          <h3 class="cover__title" id="cover-title">Текст</h3>
+          <p class="cover__subtitle" id="cover-subtitle">Текст</p>
+        </div>
+        <div class="cover__background"></div>
+        <div class="cover__overlay"></div>
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <nav class="footer__links">
+      <a class="footer__link" href="https://yandex.ru/maps" target="_blank" id="footer-link-maps">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank" id="footer-link-weather">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru" target="_blank" id="footer-link-schedule">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank" id="footer-link-calendar">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru" target="_blank" id="footer-link-trip">Путешествия</a>
+    </nav>
+    <p class="footer__copyright">© 2022. Лебедев Вадим</p>
+  </footer>
+
+  <script type="module" src="./scripts/index.js"></script>
+</body>
+
 </html>

@@ -32,7 +32,7 @@ const en = {
     "footer-link-trip": "Trip",
 }
 
-const ru = {
+const ua = {
     "lead-title": "Путешествия по России",
     "lead-subtitle": "Настоящая страна не в выпусках новостей, а здесь.",
     "lead-capton": "ВАША ПОЛКА — ВЕРХНЯЯ",
@@ -64,4 +64,6 @@ const ru = {
     "footer-link-schedule": "Расписание",
     "footer-link-calendar": "Календарь",
     "footer-link-trip": "Путешествия",
-}
+};
+
+export {en, ua}
