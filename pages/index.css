@@ -19,6 +19,12 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/__item.css);
 
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__open-image/popup__open-image.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__close-button/popup__button-close.css);
+
 @import url(../blocks/places/places.css);
 
 @import url(../blocks/place/place.css);

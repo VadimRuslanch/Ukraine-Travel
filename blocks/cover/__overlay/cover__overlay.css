@@ -3,7 +3,7 @@
     width: 100%;
     /* height: fit-conten; */
     opacity: 0.3;
-    z-index: 1;
+    z-index: 0;
     grid-column: 1/2;
     grid-row: 1/2;
     transition: opacity 0.9s linear;

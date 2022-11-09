@@ -1,8 +1,12 @@
 // import { LangFunction } from "./script.js";
-import { Photo } from "./Photo.js";
+import Photo from "./Photo.js";
+import Section from "./Section.js";
+import PopupWithImage from "./PopupWithImage.js";
 
+const popupOpenImage = document.querySelector('#popup-open-image');
 const elementsPhoto = document.querySelector('#elementsPhoto');
 const elementsCard = document.querySelector('.elementsCard');
+const popupWithImage = new PopupWithImage(popupOpenImage);
 
 const photos = [
     {
@@ -38,15 +42,22 @@ const photos = [
 ];
 
 function createPhoto(item) {
-    const photo = new Photo(item, "#templatePhoto");
+    const photo = new Photo(item, "#templatePhoto", {
+        handleCardClick: (link) => {
+            popupWithImage.handleCardClick(link)
+        }
+    });
     return photo.generate()
 };
+
 function addPhoto(item) {
     elementsPhoto.prepend(createPhoto(item));
 };
+
 photos.forEach((item) => {
     addPhoto(item)
 });
+
 
 const cards = [
     {

@@ -1,8 +1,10 @@
-export class Photo {
-    constructor(data, templateSelector) {
+export default class Photo {
+    constructor(data, templateSelector,{handleCardClick}) {
         this._link = data.link;
         this._templateSelector = templateSelector;
-        // this._handleCardClick = handleCardClick;
+        this._handleCardClick = handleCardClick;
+
+        
     };
 
     _getTemplate = () => {
@@ -15,9 +17,10 @@ export class Photo {
     };
 
     _setEventListeners = () => {
-        // this._cardImage.addEventListener('click', () => {
-        //     this._handleCardClick(this._name, this._link);
-        // });
+
+        this._element.addEventListener('click', () => {
+            this._handleCardClick(this._link);
+        });
     };
 
     generate = () => {
