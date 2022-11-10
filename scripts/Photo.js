@@ -17,7 +17,6 @@ export default class Photo {
     };
 
     _setEventListeners = () => {
-
         this._element.addEventListener('click', () => {
             this._handleCardClick(this._link);
         });
