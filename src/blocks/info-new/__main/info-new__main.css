@@ -1,0 +1,16 @@
+.info-new__main{
+    margin-top: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px 34px;
+}
+
+@media screen and (max-width: 1200px){
+    .info-new__main{
+        display: flex;
+        flex-flow: column;
+        grid-template-columns:none;
+        gap: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.info-new__header-right{
+    width: 115px;
+    height: auto;
+    margin: 0;
+}
+
+@media (min-width:540px) and (max-width: 768px){
+    .info-new__header-right{
+       width: calc( (100vw - 540px)/(768 - 540) * (157 - 115) + 115px);
+    }
+}
+
+@media screen and (min-width:768px){
+    .info-new__header-right{
+        width: 157px;
+    }
+}

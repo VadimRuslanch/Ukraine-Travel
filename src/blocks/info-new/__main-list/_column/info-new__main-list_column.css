@@ -1,0 +1,11 @@
+.info-new__main-list_column{
+    display: flex;
+    flex-flow: row;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+    .info-new__main-list_column{
+        flex-flow:column
+    }
+}

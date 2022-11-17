@@ -1,0 +1,22 @@
+.info-new__main-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .info-new__main-item {
+        flex-flow: column;
+        flex: 1 0 33%;
+        width: 33%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .info-new__main-item {
+        padding-right: 0;
+        flex: 1 0 100%;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

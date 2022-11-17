@@ -1,0 +1,19 @@
+.info-new__main-map{
+    max-width: 100%;
+    max-height: 330px;
+}
+
+@media screen and (max-width: 540px) {
+    .info-new__main-map{
+        max-height: calc( (100vw - 320px)/(540 - 320) * (330 - 197) + 197px);
+        align-items: center;
+        
+        justify-self: center;
+    }
+}
+
+@media (max-width:1199px) {
+    .info-new__main-map{
+        margin-bottom: 40px;
+    }
+}

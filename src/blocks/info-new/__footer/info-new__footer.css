@@ -1,0 +1,27 @@
+.info-new__footer {
+    /* margin-top: 45px; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@media screen and (max-width:1280px) {
+    .info-new__footer {
+        font-size: calc((100vw - 320px)/(1280 - 320) * (16 - 14) + 14px);
+        line-height: calc((100vw - 320px)/(1280 - 320) * (14 - 18) + 18px);
+    }
+}
+
+@media (min-width:768px) and (max-width:999px) {
+    .info-new__footer {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:1000px){
+    .info-new__footer {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,9 @@
+.value__left{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 38px;
+    color: #ee3131;
+    margin: 0 0 5px 0;
+    padding-right: 10px;
+    font-family: 'ErmilovBold', 'Montserrat';
+}

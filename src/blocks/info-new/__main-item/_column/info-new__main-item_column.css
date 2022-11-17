@@ -1,0 +1,10 @@
+.info-new__main-item_column{
+    flex-flow: column;
+    padding-right: 25px;
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .info-new__main-item_column{
+        padding-right: 20px;
+    }
+}

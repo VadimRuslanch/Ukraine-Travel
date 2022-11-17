@@ -1,0 +1,13 @@
+.value__selected-text{
+    display: block;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #b6f0d5;
+}
+
+@media (max-width:540px) {
+    .value__selected-text{
+        font-size: 20px;
+    }
+}

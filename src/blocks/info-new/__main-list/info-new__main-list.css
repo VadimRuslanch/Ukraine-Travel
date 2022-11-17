@@ -1,0 +1,18 @@
+.info-new__main-list{
+    display: flex;
+    flex-flow: column;
+    /* align-self: flex-start; */
+    /* margin-bottom: 40px; */
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .info-new__main-list{
+        flex-flow: row;
+    }
+}
+
+@media (min-width:320px) and (max-width:540px) {
+    .info-new__main-list{
+        margin-bottom: 40px;
+    }
+}

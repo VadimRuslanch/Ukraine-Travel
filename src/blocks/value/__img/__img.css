@@ -1,0 +1,10 @@
+.value__img{
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+
+@media screen and (min-width: 760px) {
+    .value__img{
+        margin-bottom: 17px;
+    }
+}
