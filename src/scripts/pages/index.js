@@ -1,3 +1,4 @@
+import "./index.css"
 import Photo from "../components/Photo.js"
 import Section from "../components/Section.js";
 import PopupWithImage from "../components/PopupWithImage.js";

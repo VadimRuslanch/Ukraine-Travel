@@ -8,13 +8,12 @@
   <meta content='true' name='HandheldFriendly'>
   <meta content='width' name='MobileOptimized'>
   <title>Подорож по Україні</title>
-  <link rel="stylesheet" href="./scripts/pages/index.css">
 </head>
 
 <body class="page">
 
   <header class="header">
-    <img class="header__logo" src="./images/header-logo.svg" alt="logo Ukraine">
+    <img class="header__logo" src="<%=require('./images/header-logo.svg')%>" alt="logo Ukraine">
   </header>
 
   <main>
@@ -22,7 +21,7 @@
     <section class="lead">
       <h1 class="lead__title" id="lead-title">Подорож по Україні</h1>
       <p class="lead__subtitle" id="lead-subtitle">Природа ближче ніж ти вважаєш</p>
-      <img class="lead__image" id="lead-image" src="./images/lead-polka.png" alt="#">
+      <img class="lead__image" id="lead-image" src="<%=require('./images/lead-polka.png')%>" alt="#">
     </section>
 
     <section class="intro">
@@ -44,7 +43,7 @@
 
     <section class="popup" id="popup-open-image">
       <div class="popup__open-image">
-        <img class="popup__image" src="#" alt="#">
+        <img class="popup__image" src="#" alt="">
         <button class="popup__close-button" type="button"></button>
         <h2 class="popup__text"></h2>
       </div>
@@ -70,7 +69,7 @@
       <div class="container">
         <div class="info-new__header">
           <p class="info-new__header-left">#UAnatureinwar</p>
-          <a href="https://wownature.in.ua/" target="_blank"><img class="info-new__header-right"
+          <a href="https://wownature.in.ua/" target="_blank"><img class="info-new__header-right" 
               src="https://wownature.in.ua/wp-content/uploads/2021/05/Logo-2.svg" alt="NFU-icon"></a>
         </div>
         <h2 class="info-new__title">20% заповідних територій України, уражено війною</h2>
@@ -152,7 +151,7 @@
     <a href="" target="_blank" class="footer__copyright">© Лєбєдєв Вадим.2022</a>
   </footer>
 
-  <script type="module" src="./scripts/pages/index.js"></script>
+  <!-- <script type="module" src="./scripts/pages/index.js"></script> -->
 </body>
 
 </html>
