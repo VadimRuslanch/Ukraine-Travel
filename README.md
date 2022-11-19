@@ -1,6 +1,6 @@
-# Sprint-3_project-1
-## __Веб-сайт "Путешествия по России"__
+# Ukraine-Travel
+## 
 
-Данная работа преставляет собой навыки и знания, закреленные мной во время обучющего процесса образовательной школы [Яндекс Практикум](https://practicum.yandex.ru/profile/web/), данный проект состоит из 7 блоков, в которых были применены такие технологии, как: HTML (_Код, который используется для структурирования и отображения веб-страницы и её контента_), СSS (_Формальный язык описания внешнего вида документа, написанного с использованием языка разметки_), а конкретнее, была импользована насройка цветового фона старницы, вырвнивание блоков по сетке, использование flex-верстви, использование grid-верствки, внедрение анимации через CSS, использование внешних ссылок и также методологии группирования БЭМ (в классовой структуре, непосредственно в в самом коде).
-
-Доработка проекта будет происходить постепенно процессу обучения, планируется внедрить JS.
+This project consists of 6 blocks in which the following technologies were applied: HTML, CSS, JS, npm, webpack, the use of external links and also BEM grouping methodologies.
+The website provides information about nature reserves of Ukraine for tourist visits, a complete list of nature reserves can be found on the website from where the information was taken
+This work is not dimensional, but educational.
